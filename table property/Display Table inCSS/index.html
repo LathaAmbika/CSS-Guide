@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Guide</title>
+    <style>
+      .table {
+        /*table*/
+        margin-top: 100px;
+        margin-left: 100px;
+        display: table;
+        width: auto;
+      }
+      .row {
+        /* tr*/
+        display: table-row;
+      }
+      .col {
+        /* td */
+        display: table-cell;
+        width: 100px;
+        border: 1px solid red;
+        padding: 10px 15px;
+      }
+      .header {
+        display: table-header-group;
+        font-weight: bold;
+        text-align: center;
+        background-color: green;
+        color: white;
+      }
+      .caption {
+        display: table-caption;
+        text-align: center;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="table">
+      <div class="caption">Family details</div>
+      <div class="header">
+        <div clas="row">
+          <div class="col">Name</div>
+          <div class="col">Age</div>
+          <div class="col">City</div>
+        </div>
+      </div>
+      <div clas="row">
+        <div class="col">Nithu</div>
+        <div class="col">3</div>
+        <div class="col">Madurai</div>
+      </div>
+      <div clas="row">
+        <div class="col">Latha</div>
+        <div class="col">23</div>
+        <div class="col">Madurai</div>
+      </div>
+      <div clas="row">
+        <div class="col">Karthi</div>
+        <div class="col">25</div>
+        <div class="col">Madurai</div>
+      </div>
+      <div clas="row">
+        <div class="col">Muthu</div>
+        <div class="col">47</div>
+        <div class="col">Madurai</div>
+      </div>
+      <div clas="row">
+        <div class="col">Uma</div>
+        <div class="col">39</div>
+        <div class="col">Madurai</div>
+      </div>
+      <div clas="row">
+        <div class="col">Sathish</div>
+        <div class="col">19</div>
+        <div class="col">Madurai</div>
+      </div>
+    </div>
+  </body>
+</html>
+<!--table
+table-cell
+table-row
+table-column
+table-caption
+table-column-group
+table-row-group
+table-header-group
+table-footer-group-->

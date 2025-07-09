@@ -1,0 +1,21 @@
+/* icon - font awesome icons,google icons */
+.fa-apple{
+    color: white;
+    background-color: red;
+    padding: 30px;
+    font-size: 50px;
+}
+.fa-instagram{
+    color: white;
+    background-color: violet;
+    padding: 24px;
+    font-size: 30px;
+    border-radius: 30px;
+}
+.fa-facebook-f{
+    color: white;
+    background-color: blue;
+    padding: 15px;
+    font-size: 20px;
+    border-radius:15px ;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css</title>
+    <style>
+      /* direct child sel */
+      .box > p {
+        color: red;
+      }
+      /* adjacent sel (nearest) */
+      .box + p {
+        background-color: yellow;
+      }
+      div[class~="inner"] {
+        background-color: aqua;
+      }
+      .txt {
+        color: white;
+      }
+      /* div[class] {
+        background-color: green;
+      } */
+      a[title="link1"] {
+        color: orange;
+      }
+      /* starting ^ */
+      a[href^="test"] {
+        color: green;
+      }
+      /* ending $ */
+      a[href$="#"] {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>More Selectors</h1>
+    <div class="box">
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa vero amet
+        magni nobis cum libero, alias error illum vitae autem!
+      </p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa vero amet
+        magni nobis cum libero, alias error illum vitae autem!
+      </p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa vero amet
+        magni nobis cum libero, alias error illum vitae autem!
+      </p>
+
+      <div class="inner txt">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae soluta
+          aperiam, quasi veritatis temporibus error, nesciunt neque dolorem
+          culpa quam impedit praesentium dignissimos at a.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae soluta
+          aperiam, quasi veritatis temporibus error, nesciunt neque dolorem
+          culpa quam impedit praesentium dignissimos at a.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae soluta
+          aperiam, quasi veritatis temporibus error, nesciunt neque dolorem
+          culpa quam impedit praesentium dignissimos at a.
+        </p>
+      </div>
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+      voluptatum autem cum non molestias repudiandae.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+      voluptatum autem cum non molestias repudiandae.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+      voluptatum autem cum non molestias repudiandae.
+    </p>
+    <a href="test.html" title="link1">Link 1</a>
+    <a href="test.png" title="link2">Link 2</a>
+    <a href="#" title="link3">Link 3</a>
+    <a href="#" title="link4">Link 4</a>
+  </body>
+</html>
+<!--Simple Selectors
+ element - h1
+ class - .
+ id - #
+ universal- *
+ 
+Combinators selectors
+  Descendant - .box p{} (space) parent space child
+  Direct child - .box>p{}
+  Adjacent Sibling - .box+p{} nearest
+  General Sibling - .box ~ p{}
+  -->

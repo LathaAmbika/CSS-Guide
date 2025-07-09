@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Guide</title>
+    <style>
+      /* first preference ID selector */
+      #box p {
+        color: blueviolet;
+      }
+      /* second preference Class Selector */
+      .test {
+        color: green;
+      }
+
+      p {
+        color: red !important; /* first preference keyword */
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, beatae
+      enim officia quidem corporis accusantium soluta vero deserunt eligendi ab!
+    </p>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, beatae
+      enim officia quidem corporis accusantium soluta vero deserunt eligendi ab!
+    </p>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, beatae
+      enim officia quidem corporis accusantium soluta vero deserunt eligendi ab!
+    </p>
+    <div id="box">
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi,
+        beatae enim officia quidem corporis accusantium soluta vero deserunt
+        eligendi ab!
+      </p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi,
+        beatae enim officia quidem corporis accusantium soluta vero deserunt
+        eligendi ab!
+      </p>
+      <p class="test">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi,
+        beatae enim officia quidem corporis accusantium soluta vero deserunt
+        eligendi ab!
+      </p>
+    </div>
+  </body>
+</html>

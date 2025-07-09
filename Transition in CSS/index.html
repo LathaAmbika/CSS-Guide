@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        width: 300px;
+        height: 300px;
+        background-color: orangered;
+        /* transition-property: width,height,background;
+        transition-duration: 0.5s,0.5s,1s;
+        transition-timing-function: ease-in-out; */
+
+        /* transition-property:all;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0.5s; */
+        border: 5px solid black;
+
+        /* transition:all 0.5s ease-in 1s; */
+
+        transition-property: all;
+        transition-duration: 2s;
+        transition-timing-function: cubic-bezier(0.96, 0.29, 0.48, 1.13);
+        transition-delay: 0.1s;
+      }
+      div:hover {
+        width: 600px;
+        height: 600px;
+        background: rebeccapurple;
+        border: 5px dashed red;
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+  </body>
+</html>
+<!--
+transition-property
+transition-duration
+transition-delay
+transition-timing-function
+    ease 
+    Linear
+    ease-in
+    ease-out
+    ease-in-out
+ 
+[start slow fast end slow
+.ease{transition-timing-function:ease;}
+
+[Constant Speed-Maintain same speed from start to end
+.linear{ transition-timing-function: linear;}]
+
+[Start Slow End Fast 
+.ease-in{ transition-timing-function: ease-in;}]
+
+[Start Fast  End Slow 
+.ease-out{ transition-timing-function: ease-out;}]
+
+[start slow  End slow
+.ease-in-out{ transition-timing-function: ease-in-out;}]
+
+.cubic{ transition-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);- website own creation}
+
+    -->

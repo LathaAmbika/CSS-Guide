@@ -1,0 +1,13 @@
+/* Combinators */
+/* Descendant selector (space),Child selector(>),Adjacent sibling selector(+),General sibling(~) */
+body{
+    font-size: 30px;
+}
+div > p{
+    color: red;
+}
+
+div + p{
+    color: blue;
+}
+/* general sibling selector(~) after div coming for all elements apply this selector */

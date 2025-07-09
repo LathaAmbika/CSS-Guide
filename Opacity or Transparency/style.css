@@ -1,0 +1,18 @@
+/* CSS Opacity/ Transparency */
+/* Transparent Image 0.1 to 0.9,Transparent Hover Effect,Transparent Box */
+img:hover{
+    opacity: 0.5;
+}
+#sec1{
+    height: 100px;
+    width: 500px;
+    padding: 40px;
+    background-color: yellowgreen;
+    color: crimson;
+    text-align: center;
+    font-size: 50px;
+}
+#sec1:hover{
+    
+    opacity: 0.3;
+}

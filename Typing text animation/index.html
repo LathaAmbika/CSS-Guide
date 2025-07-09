@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typing Animation</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+
+      body {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1b1464;
+      }
+
+      h1 {
+        font-size: 60px;
+        font-weight: 500;
+        color: white;
+        width: 0ch;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 1px solid white;
+        animation: typing 8s steps(20) infinite;
+      }
+      @keyframes typing {
+        0% {
+          width: 0ch;
+        }
+        50% {
+          width: 31ch;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Kathikeyan , Latha Ambika , Nithukutty</h1>
+  </body>
+</html>

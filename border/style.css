@@ -1,0 +1,31 @@
+/* BORDER-STYLE,width,color,radius */
+
+.head1{
+    border-style: dashed;
+    border-color: blueviolet;
+    border-radius: 30px;
+}
+.head2{
+    border-style: dotted;
+}
+.head3{
+    border-style: solid dashed;
+    border-width: 15px 10px;
+    border-color: red yellow;
+}
+.head4{
+    border-style: inset dotted solid outset;
+}
+
+/* border-top-style,right-style,bottom,left*/
+.head5{
+    border-top: dashed;
+    border-right: solid;
+    border-bottom: dotted;
+    border-left: double;
+    border-width: 10px 5px 10px 5px;
+    border-color: brown blue forestgreen orangered;
+    border-radius: 10px 20px 15px 25px;
+}
+
+

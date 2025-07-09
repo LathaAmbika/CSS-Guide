@@ -1,0 +1,17 @@
+/* TYPES OF STYLESHEET-Inline,Internal,External */
+h3{
+    color: blue;
+    border-radius: 30px;
+    background-color: lawngreen;
+}
+/* CSS Color-name,hexa decimal,RGB value - open color picker */
+
+p{
+    color: #1b1b33;
+}
+/* Image - height,width */
+img{
+    width: 100%;
+    height: 100%;
+
+}

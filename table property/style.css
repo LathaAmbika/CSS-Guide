@@ -1,0 +1,48 @@
+/* table property-borders , horizontal dividers */
+table,
+tr,
+td,
+th {
+  border-bottom: 1px solid black;
+  font-size: 25px;
+}
+/*collapse table borders */
+table,
+tr,
+th,
+td {
+  border-collapse: collapse;
+}
+/* table-height,width */
+table {
+  width: 75%;
+}
+
+/* horizontal alignment , vertical alignment */
+
+tr,
+td,
+th {
+  text-align: center;
+}
+td {
+  height: 50px;
+  vertical-align: middle;
+}
+/* table padding */
+table,
+th,
+tr,
+td {
+  padding: 10px;
+}
+/* striped tables */
+tr:nth-child(odd) {
+  background-color: blueviolet;
+  color: white;
+}
+/* Hovertable */
+td:hover {
+  background-color: red;
+  color: white;
+}

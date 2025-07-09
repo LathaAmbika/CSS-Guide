@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
+    <style>
+      li:only-child {
+        color: red;
+      }
+      h2:only-of-type {
+        color: blue;
+      }
+      p:only-of-type {
+        color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Pseudo class selector | :only-child | :only-of-type</h1>
+    <!--only child- select only one child
+    child-compulsory need to be parent
+    type-not need to be parent-->
+    <ul>
+      <li>Item-1</li>
+    </ul>
+    <ul>
+      <li>Item-1</li>
+      <li>Item-2</li>
+      <li>Item-3</li>
+      <li>Item-4</li>
+      <li>Item-5</li>
+    </ul>
+    <h2>:only-of-type</h2>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio quae
+      obcaecati quibusdam quam autem consectetur mollitia impedit? Quaerat,
+      vitae ut.
+    </p>
+  </body>
+</html>

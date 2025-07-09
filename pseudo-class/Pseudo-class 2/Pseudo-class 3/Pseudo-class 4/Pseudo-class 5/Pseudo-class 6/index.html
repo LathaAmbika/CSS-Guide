@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
+    <style>
+      p:empty {
+        padding: 10px;
+        border: 2px solid goldenrod;
+      }
+      p:not(.para) {
+        color: red;
+      }
+
+      p:lang(hi) {
+        color: orchid;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Pseudo class selector | :empty</h1>
+    <p></p>
+    <h1>Pseudo class selector | :not</h1>
+    <p class="para">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis vero
+      adipisci illum culpa consequuntur! Ut sint quod incidunt dolorem
+      recusandae.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eaque illum
+      corporis tempora aperiam officiis minus, quas voluptate necessitatibus eum
+      itaque nobis reiciendis, quaerat ullam?
+    </p>
+    <p class="para">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis vero
+      adipisci illum culpa consequuntur! Ut sint quod incidunt dolorem
+      recusandae.
+    </p>
+    <h1>Pseudo class selector | :lang</h1>
+    <p lang="en">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit eveniet
+      saepe culpa reiciendis et odio!
+    </p>
+    <p lang="hi">
+      छात्र जीवन में विभिन्न विषयों पर हिंदी निबंध (essay in hindi) लिखने की
+      आवश्यकता होती है। हिंदी निबंध
+    </p>
+  </body>
+</html>

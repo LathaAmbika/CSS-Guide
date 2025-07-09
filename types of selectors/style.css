@@ -1,0 +1,28 @@
+/* TYPES OF SELECTORS- Element sel,class sel,id sel,universal sel,multiple sel */
+h1{
+    background-color: yellow;
+    color: black;
+    border-style: outset;
+    
+}
+.my1{
+    background-color: yellow;
+    color: red;
+    
+}
+.my2{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 20px;
+    
+}
+#self{
+    background-color: black;
+    color: white;
+}
+*{
+    display: block;
+}
+h1,h2,p{
+    font-family: 'Times New Roman', Times, serif;
+}

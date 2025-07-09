@@ -1,0 +1,24 @@
+/* list styles-type,image */
+ul{
+    list-style-image: url("correct.png");
+    
+}
+ol{
+    list-style-type: none;
+    background-color: lightskyblue;
+    font-size: 30px;
+    width: 15%;
+    padding: 60px;
+}
+ol li{
+    background-color: white;
+    margin: 5px;
+    color: blue;
+    
+}
+ol li:hover{
+    background-color: red;
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+}

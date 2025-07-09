@@ -1,0 +1,35 @@
+/* TEXT-Color,Alignment,Decoration,Transformation,Spacing-indent,letter-spacing,line height,word-spacing,shadow,vertical-align(sub,super) */
+
+h1{
+    color: red;
+    background-color: yellow;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+h2{
+    color: brown;
+    text-align: right;
+    text-decoration: overline;
+    text-transform: lowercase;
+    text-shadow: 3px 3px blueviolet;
+}
+p{
+    color: green;
+    text-transform: capitalize;
+    text-indent: 70px;
+    letter-spacing: 2px;
+    line-height: 3.5;
+    word-spacing: 10px;
+}
+span{
+    text-decoration: line-through;
+}
+/* text-decoration:none; use for <a> tag link */
+a{
+    text-decoration: none;
+}
+h3{
+    text-indent: 80px;
+    letter-spacing: -2px;
+}

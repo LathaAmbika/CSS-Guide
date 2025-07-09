@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Guide</title>
+    <style>
+      div {
+        width: 700px;
+        height: 500px;
+        background-color: black;
+        /* single direction */
+        background: linear-gradient(black, skyblue);
+
+        background: linear-gradient(to right, black, skyblue);
+        background: linear-gradient(to left, black, skyblue);
+        background: linear-gradient(to top, black, skyblue);
+        background: linear-gradient(to bottom, black, skyblue);
+        /* multiple direction */
+        background: linear-gradient(to bottom right, black, skyblue);
+        background: linear-gradient(to bottom left, black, skyblue);
+        background: linear-gradient(to top left, black, skyblue);
+        background: linear-gradient(to top right, black, skyblue);
+
+        /* repeating-linear-gradient*/
+        background: repeating-linear-gradient(pink, white 10%, skyblue 20%);
+
+        /* radial gradient */
+        background: radial-gradient(green, red, white);
+        background: radial-gradient(circle, green, red, white);
+
+        /* repeating-radial-gradient */
+        background: repeating-radial-gradient(orange 10%, green 20%, red 15%);
+
+        /* conic gradient */
+        background-image: conic-gradient(red, yellow, green);
+        border-radius: 50%;
+
+        /*repeating-conic-gradient */
+        background-image: repeating-conic-gradient(yellow 5%, black 15%);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Background Gradient</h1>
+    <div></div>
+  </body>
+</html>
+<!--
+linear-gradient
+repeating-linear-gradient
+radial-gradient
+repeating-radial-gradient
+conic-gradient
+repeating-conic-gradient-->

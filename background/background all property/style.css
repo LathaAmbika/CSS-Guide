@@ -1,0 +1,19 @@
+/* background-color-name,HEX DECIMAL,RGB,image,repeat,attachment,position,size,clip, */
+p {
+  background-image: url(bg\ image.jpg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+}
+h1 {
+  background-color: black;
+  color: white;
+}
+div {
+  width: 900px;
+  height: 300px;
+  padding: 10px;
+  background: teal url(bg\ image.jpg) no-repeat;
+  background-size: cover;
+  /*background size set with width and height*/
+}

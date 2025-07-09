@@ -1,0 +1,7 @@
+/* The display property , display-none,visibility-hidden */
+ul li {
+  display: inline;
+}
+span {
+  display: block;
+}

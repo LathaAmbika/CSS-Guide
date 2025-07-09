@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neon Light Text</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        width: 100vw;
+        height: 100vh;
+        font-family: "Lobster", cursive;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+      }
+      /*
+h1{
+  color:grey;
+  font-size: 200px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+h1:hover{
+color:white;
+text-shadow: 
+0 0 5px #ff3838,
+0 0 25px #ff3838,
+0 0 50px #ff3838,
+0 0 100px #ff3838;
+}
+*/
+
+      h1 {
+        color: grey;
+        font-size: 200px;
+        cursor: pointer;
+        animation: glow 1s ease infinite;
+      }
+
+      @keyframes glow {
+        from {
+          color: grey;
+        }
+        to {
+          color: white;
+          text-shadow: 0 0 5px #32ff7e, 0 0 25px #32ff7e, 0 0 50px #32ff7e,
+            0 0 100px #32ff7e;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Karthi Nithu</h1>
+  </body>
+</html>

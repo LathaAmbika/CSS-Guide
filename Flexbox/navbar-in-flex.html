@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <style>
+      * {
+        font-family: "Poppins", sans-serif;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 10%;
+        background: #414a4f;
+      }
+
+      .logo {
+        cursor: pointer;
+        color: white;
+        font-weight: 400;
+      }
+      .nav-link {
+        list-style: none;
+        display: flex;
+      }
+      .nav-link li {
+        padding: 0 20px;
+      }
+
+      .nav-link li a {
+        color: white;
+        text-decoration: none;
+        transform: 0.3s;
+      }
+      .nav-link li a:hover {
+        color: #0088e9;
+      }
+
+      button {
+        padding: 9px 25px;
+        background: rgba(0, 136, 169, 1);
+        border: none;
+        color: #fff;
+        border-radius: 50px;
+        transform: 0.3s;
+      }
+      button:hover {
+        background: rgba(0, 136, 169, 0.8);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2 class="logo">Tutor Joe's</h2>
+      <nav>
+        <ul class="nav-link">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Service</a></li>
+        </ul>
+      </nav>
+      <button>Contact us</button>
+    </header>
+  </body>
+</html>

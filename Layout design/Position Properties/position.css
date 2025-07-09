@@ -1,0 +1,22 @@
+/* 
+1.Static  (default)
+2.Relative - left,top,right,bottom
+3.Absolute -left,top,right,bottom
+             Relative property use
+4.Fixed - over all document fixed
+5.Sticky
+*/
+.main {
+  position: relative;
+}
+.box1 {
+  position: relative;
+  left: 50px;
+  bottom: 5px;
+}
+.box2 {
+  position: absolute;
+  bottom: 0px;
+}
+.box3 {
+}

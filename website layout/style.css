@@ -1,0 +1,56 @@
+/* website layout */
+body{
+    width: 80%;
+    margin: auto;
+    background-color: darkgrey;
+}
+h1{
+    text-align: center;
+    padding: 25px;
+}
+#header{
+    height: 100px;
+    width: 100%;
+    background-color: aquamarine;
+}
+#banners{
+    height: 300px;
+    background-color: lawngreen;
+    width: 100%;
+    overflow: hidden;
+}
+#intro{
+    height: 200px;
+    width: 100%;
+    background-color: palevioletred;
+    overflow: hidden;
+}
+#box1{
+    height: 400px;
+    background-color: olive;
+    width: 32%;
+    overflow: hidden;
+    float: left;
+    margin-right: 2%;
+}
+#box2{
+    height: 400px;
+    background-color: blueviolet;
+    width:32% ;
+    overflow: hidden;
+    float: left;
+    margin-right: 2%;
+}
+#box3{
+    height: 400px;
+    background-color: crimson;
+    width: 32%;
+    overflow: hidden;
+    float: right;
+}
+#footer{
+    height: 100px;
+    width: 100%;
+    background-color: chocolate;
+    clear: both;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width, initial-scale=1.0" />
+    <title>CSS</title>
+    <style>
+      p:nth-of-type(2) {
+        color: blue;
+      }
+      p:nth-last-of-type(1) {
+        color: red;
+      }
+      li:nth-of-type(2) {
+        color: green;
+        font-weight: bold;
+      }
+      li:nth-last-of-type(2) {
+        color: brown;
+        font-weight: bold;
+      }
+      .l2 li:nth-of-type(odd) {
+        color: purple;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Pseudo class selector | :nth-of-type | :nth-last-of-type</h1>
+    <ul class="l1">
+      <li>Item-1</li>
+      <li>Item-2</li>
+      <li>Item-3</li>
+      <li>Item-4</li>
+      <li>Item-5</li>
+    </ul>
+    <ul class="l2">
+      <li>Item-1</li>
+      <li>Item-2</li>
+      <li>Item-3</li>
+      <li>Item-4</li>
+      <li>Item-5</li>
+    </ul>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod deserunt
+      ratione corporis nemo, quis aspernatur ducimus esse vero odit! Enim?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod deserunt
+      ratione corporis nemo, quis aspernatur ducimus esse vero odit! Enim?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod deserunt
+      ratione corporis nemo, quis aspernatur ducimus esse vero odit! Enim?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod deserunt
+      ratione corporis nemo, quis aspernatur ducimus esse vero odit! Enim?
+    </p>
+  </body>
+</html>

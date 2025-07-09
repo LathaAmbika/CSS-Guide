@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
+    <style>
+      #div1 {
+        background-color: palevioletred;
+      }
+      #div2 {
+        background-color: aqua;
+      }
+      /* select single line use :is() */
+      #div1 :is(h2, h3, h4) {
+        color: yellow;
+      }
+      :is(#div1, #div2) h2 {
+        color: brown;
+      }
+      :is(#div1, #div2) :is(h4, p) {
+        color: white;
+      }
+      :is(#div1, #div2) h2:hover {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>:is() CSS Pseudo Class Selector</h2>
+
+    <div id="div1">
+      <h2>H2 - Heading One</h2>
+      <h3>H3 - Sub Heading-1</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+        voluptatem officiis ad, similique aliquid eius, architecto ratione
+        deserunt nostrum vel vitae eaque, ipsa consequuntur exercitationem?
+      </p>
+      <h4>H4 - Sub Heading-2</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, placeat
+        accusantium ad quam non, iusto aspernatur ab tempore adipisci aliquid
+        corporis sit quibusdam cupiditate dolorum?
+      </p>
+    </div>
+    <hr />
+    <div id="div2">
+      <h2>H2 - Heading Two</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+        vitae molestias illum sint corrupti corporis, nulla quisquam labore
+        rerum dignissimos cum repudiandae cupiditate eveniet adipisci. Rem
+        obcaecati vitae doloribus temporibus.
+      </p>
+    </div>
+    <p>
+      <b>Outside</b>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio
+      quibusdam, aliquid itaque, provident officiis nostrum corrupti libero
+      ullam impedit tenetur consectetur aspernatur deserunt dolorum optio.
+    </p>
+  </body>
+</html>
