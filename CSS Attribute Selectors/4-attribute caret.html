@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attribute Selector</title>
+    <style>
+      p[class^="content"] {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>[attributename^=value] Selector</h3>
+    <p>
+      This selector represents an element with the "attribute name" attribute
+      whose value begins with the prefix "content".
+    </p>
+    <p class="content">Tutor Joes - P1</p>
+    <p class="left-content">Tutor Joes - P2</p>
+    <p class="content-right">Tutor Joes - P3</p>
+    <p class="contenttext">Tutor Joes - P4</p>
+  </body>
+</html>

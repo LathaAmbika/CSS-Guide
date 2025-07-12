@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attribute Selector</title>
+    <style>
+      /*
+      span[class$="test"] {
+        color: red;
+      }*/
+
+      [class$="test"] {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>[attributename$="value"] Selector</h3>
+    <p class="test">Attribute end with the value (test)</p>
+
+    <span class="text"> Content0... </span>
+    <span class="test"> Content1... </span>
+    <span class="test-demo"> Content2... </span>
+    <span class="demo-test"> Content3... </span>
+    <span class="demotest"> Content4... </span>
+    <span class="demotest00"> Content5... </span>
+  </body>
+</html>

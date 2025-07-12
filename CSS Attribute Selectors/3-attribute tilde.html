@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attribute Selector</title>
+    <style>
+      /*
+      p[class~="title"] {
+        color: orange;
+      }*/
+      [class~="title"] {
+        color: orange;
+      }
+    </style>
+  </head>
+  <body></body>
+  <h3>[attributename~="value"] selector</h3>
+  <p>Value matches attribute in space separated list.</p>
+  <p class="title">Tutor Joes - P1</p>
+  <p class="titleColors">Tutor Joes - P2</p>
+  <p class="black title red">Tutor Joes - P3</p>
+
+  <div class="title">Tutor Joes - D1</div>
+</html>

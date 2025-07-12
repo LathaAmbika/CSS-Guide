@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attribute Selector</title>
+    <style>
+      p[class="para"] {
+        color: red;
+      }
+      input[type="text"] {
+        background-color: pink;
+      }
+      img[width="75px"] {
+        border: 2px solid red;
+      }
+    </style>
+  </head>
+  <body></body>
+  <h3>[attributename="value"] Selector</h3>
+  <p class="para">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dolor
+    nulla sequi accusantium sed ad dolore culpa ab, velit fugiat repudiandae
+    eveniet provident at animi blanditiis! In, explicabo quae! Quibusdam!
+  </p>
+  <img src="baby1.jpg" alt="Man" width="70px" />
+  <p class="sample">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dolor
+    nulla sequi accusantium sed ad dolore culpa ab, velit fugiat repudiandae
+    eveniet provident at animi blanditiis! In, explicabo quae! Quibusdam!
+  </p>
+  <img src="baby2.jpg" width="75px" />
+  <p class="para">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dolor
+    nulla sequi accusantium sed ad dolore culpa ab, velit fugiat repudiandae
+    eveniet provident at animi blanditiis! In, explicabo quae! Quibusdam!
+  </p>
+
+  <label for="name">Name</label>
+  <input type="text" id="name" title="Enter Name" /><br /><br />
+  <label for="gender">Gender</label>
+  <input type="radio" name="gender" checked />Male
+  <input type="radio" name="gender" />Female
+  <br /><br />
+  <label for="address">Email Address</label>
+  <input type="email" id="address" />
+</html>
