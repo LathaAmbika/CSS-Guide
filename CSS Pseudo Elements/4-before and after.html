@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Before After Pseudo-elements</title>
+    <style>
+      p::before {
+        content: "Rose" " ";
+        font-weight: bold;
+        color: red;
+      }
+      p::after {
+        content: " " "pooja";
+        font-weight: bold;
+        color: red;
+      }
+      span::before {
+        content: "$";
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Before & after Pseudo-elements</h1>
+
+    <p>I Love Dogs</p>
+
+    <h5>Total Amount <span>500</span></h5>
+  </body>
+</html>

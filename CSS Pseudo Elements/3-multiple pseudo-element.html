@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiple Pseudo-elements</title>
+    <style>
+      p::first-line {
+        color: brown;
+        font-size: 20px;
+      }
+      p::first-letter {
+        color: blue;
+        font-size: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Multiple Pseudo-elements</h1>
+
+    <h2>Sample Heading</h2>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis
+      aliquid sint nihil eaque dolor dolorum libero, dolorem in repellendus
+      temporibus vero recusandae explicabo tempore mollitia laborum eum
+      assumenda possimus consequatur.
+    </p>
+
+    <h2>Sample Heading</h2>
+    <p>
+      Lorem ipsum dolor, Veritatis aliquid sint nihil eaque dolor dolorum
+      libero, dolorem in repellendus temporibus vero recusandae explicabo
+      tempore mollitia laborum eum assumenda possimus consequatur.
+    </p>
+  </body>
+</html>

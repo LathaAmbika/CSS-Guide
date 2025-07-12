@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>::marker Pseudo-elements</title>
+    <style>
+      body {
+        padding: 30px;
+      }
+      ul li::marker {
+        color: red;
+        font-size: 23px;
+      }
+
+      .ordered-list li::marker {
+        color: red;
+        font-weight: bold;
+      }
+      .symbol li::marker {
+        content: " ";
+      }
+      h3.list {
+        display: list-item;
+        counter-increment: myList;
+      }
+      h3.list::marker {
+        display: list-item;
+        content: "#" counter(myList) " ";
+        color: lightsalmon;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>::marker</h3>
+
+    <ul>
+      <li>Apple</li>
+      <li>Orange</li>
+      <li>Pineapple</li>
+      <li>Papaya</li>
+      <li>Mango</li>
+    </ul>
+    <ol class="ordered-list">
+      <li>Apple</li>
+      <li>Orange</li>
+      <li>Pineapple</li>
+      <li>Papaya</li>
+      <li>Mango</li>
+    </ol>
+
+    <ol class="symbol">
+      <li>Lorem ipsum dolor sit amet.</li>
+      <li>Corporis aliquam excepturi neque deleniti.</li>
+      <li>Incidunt eos repellendus vitae deserunt!</li>
+    </ol>
+
+    <hr />
+    <h3 class="list">HTML</h3>
+    <p>HyperText Markup Language</p>
+    <h3 class="list">CSS</h3>
+    <p>Cascading Style Sheet</p>
+    <h3 class="list">SASS</h3>
+    <p>Syntactically Awesome Style Sheets</p>
+    <h3 class="list">TJ</h3>
+    <p>Tutor Joes</p>
+  </body>
+</html>
