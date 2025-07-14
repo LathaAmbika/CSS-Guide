@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Structural Pseudo-classes</title>
+    <style>
+      div {
+        background-color: burlywood;
+        padding: 10px;
+      }
+      /*
+      p:nth-of-type(1) {
+        color: red;
+      }
+      p:nth-of-type(3) {
+        color: blue;
+      }
+
+      */
+      p:nth-last-of-type(1) {
+        color: red;
+      }
+
+      li:nth-last-of-type(2) {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Structural Pseudo-classes</h1>
+    <h3>:nth-of-type() :nth-last-of-type()</h3>
+    <p>
+      P-1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
+      laborum, rerum illo id molestiae aliquid.
+    </p>
+
+    <div>
+      <p>
+        P-1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
+        laborum, rerum illo id molestiae aliquid.
+      </p>
+      <p>
+        P-2 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
+        laborum, rerum illo id molestiae aliquid.
+      </p>
+      <p>
+        P-3 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
+        laborum, rerum illo id molestiae aliquid.
+      </p>
+    </div>
+
+    <ul>
+      <li>Apple</li>
+      <li>Orange</li>
+      <li>Pineapple</li>
+      <li>Banana</li>
+      <li>Mango</li>
+      <li>Watermelon</li>
+      <li>Papaya</li>
+    </ul>
+
+    <p>
+      P-2 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
+      laborum, rerum illo id molestiae aliquid.
+    </p>
+    <p>
+      P-3 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
+      laborum, rerum illo id molestiae aliquid.
+    </p>
+
+    <ul>
+      <li>Pencil</li>
+      <li>Pen</li>
+      <li>Eraser</li>
+      <li>Book</li>
+      <li>Ball</li>
+      <li>Stabler</li>
+      <li>Box</li>
+      <li>Compass</li>
+    </ul>
+  </body>
+</html>

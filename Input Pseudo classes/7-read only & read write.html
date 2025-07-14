@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input pseudo-classes</title>
+    <style>
+      input {
+        outline: none;
+      }
+      input:read-only {
+        background-color: pink;
+      }
+      input:read-write {
+        background-color: lime;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Input pseudo-classes</h3>
+    <p>:read-only and :read-write</p>
+
+    <input type="text" placeholder="first name" readonly />
+    <input type="text" placeholder="last name" />
+  </body>
+</html>

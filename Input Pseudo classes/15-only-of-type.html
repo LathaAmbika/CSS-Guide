@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Structural Pseudo-classes</title>
+    <style>
+      p:only-of-type {
+        color: red;
+      }
+      li:only-of-type {
+        color: blue;
+      }
+      span:only-of-type {
+        color: orangered;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Structural Pseudo-classes</h1>
+    <h3>:only-of-type</h3>
+
+    <p>
+      P-1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
+      laborum, rerum illo id molestiae aliquid.
+    </p>
+
+    <ul>
+      <li>Apple</li>
+    </ul>
+
+    <div>
+      <p>
+        P-1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
+        laborum, rerum illo id molestiae aliquid.
+      </p>
+      <span>Span Tag</span>
+      <b>Bold Tag</b>
+    </div>
+  </body>
+</html>

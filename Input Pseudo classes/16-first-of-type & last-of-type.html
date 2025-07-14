@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Structural Pseudo-classes</title>
+    <style>
+      div {
+        background-color: burlywood;
+        padding: 10px;
+      }
+      p:first-of-type {
+        color: red;
+      }
+      p:last-of-type {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Structural Pseudo-classes</h1>
+    <h3>:first-of-type :last-of-type</h3>
+
+    <p>
+      P-1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
+      laborum, rerum illo id molestiae aliquid.
+    </p>
+    <div>
+      <p>
+        PD-1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
+        laborum, rerum illo id molestiae aliquid.
+      </p>
+      <span>Span Tag</span>
+      <b>Bold Tag</b>
+      <span>Span Tag</span>
+      <p>
+        PD-2 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
+        laborum, rerum illo id molestiae aliquid.
+      </p>
+      <p>
+        PD-3 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
+        laborum, rerum illo id molestiae aliquid.
+      </p>
+    </div>
+
+    <p>
+      P-2 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
+      laborum, rerum illo id molestiae aliquid.
+    </p>
+    <p>
+      P-3 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
+      laborum, rerum illo id molestiae aliquid.
+    </p>
+  </body>
+</html>

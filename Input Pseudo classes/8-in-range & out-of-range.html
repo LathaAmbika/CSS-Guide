@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input pseudo-classes</title>
+    <style>
+      input {
+        outline: none;
+      }
+      input[type="number"]:in-range {
+        color: green;
+      }
+      input[type="number"]:out-of-range {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Input pseudo-classes</h3>
+    <p>:in-range and :out-of-range</p>
+
+    <input type="number" min="1" max="5" />
+    <input type="number" min="1" max="5" />
+  </body>
+</html>

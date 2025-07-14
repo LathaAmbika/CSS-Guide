@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input pseudo-classes</title>
+    <style>
+      input:default + label {
+        color: brown;
+      }
+      option:default {
+        color: green;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Input pseudo-classes</h3>
+    <p>:default</p>
+
+    <input type="checkbox" id="c" checked />
+    <label for="c">C Program</label>
+    <br />
+
+    <input type="checkbox" id="cpp" />
+    <label for="cpp">C++</label>
+    <br />
+
+    <input type="checkbox" id="java" />
+    <label for="java">Java</label>
+    <br />
+
+    <hr />
+    <input type="radio" id="male" checked name="gender" />
+    <label for="male">Male</label>
+    <br />
+    <input type="radio" id="female" name="gender" />
+    <label for="female">Female</label>
+    <br />
+    <hr />
+    <label for="course">Course Name</label>
+    <select id="course">
+      <option value="">Select Value</option>
+      <option value="c">C</option>
+      <option value="cpp" selected>C++</option>
+      <option value="java">Java</option>
+    </select>
+  </body>
+</html>

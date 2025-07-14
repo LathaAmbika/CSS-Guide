@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input pseudo-classes</title>
+    <style>
+      input {
+        outline: none;
+        border: 1px solid;
+      }
+      input:required {
+        border-color: rgb(18, 18, 230);
+      }
+      input:optional {
+        border-color: #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Input pseudo-classes</h3>
+    <p>:required and :optional</p>
+
+    <input type="text" placeholder="first name" required />
+    <input type="text" placeholder="last name" />
+  </body>
+</html>
